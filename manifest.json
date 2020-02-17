@@ -1,0 +1,18 @@
+{
+  "vendor": "vtex",
+  "name": "edition-hello",
+  "version": "0.1.0",
+  "title": "Getting Started with VTEX Edition Apps",
+  "description": "A sample edition app with a blank apps.json",
+  "builders": {
+    "edition": "0.x"
+  },
+  "dependencies": {
+    "vtex.edition-business": "0.x"
+  },
+  "billingOptions": {
+    "free": true
+  },
+  "settingsSchema": {},
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
